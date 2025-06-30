@@ -1,6 +1,6 @@
 import streamlit as st
-from config.config import MIN_TICKERS, MAX_TICKERS, DEFAULT_TICKERS
-from utils.utils import is_valid_ticker
+from app.config.config import MIN_TICKERS, MAX_TICKERS, DEFAULT_TICKERS
+from app.utils.utils import is_valid_ticker
 
 
 def display_header():

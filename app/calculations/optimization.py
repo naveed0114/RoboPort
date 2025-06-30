@@ -1,6 +1,6 @@
 import numpy as np
 from scipy.optimize import minimize
-from config.config import NUMBER_OF_PORTFOLIOS
+from app.config.config import NUMBER_OF_PORTFOLIOS
 
 
 def calculate_sharpe_ratio_optimization(prices, num_tickers):

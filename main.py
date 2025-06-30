@@ -14,7 +14,7 @@ from app.calculations.portfolio_calculations import (
     calculate_beta, calculate_beta_weights
 )
 from app.calculations.optimization import calculate_sharpe_ratio_optimization, calculate_markowitz_optimization
-from app.visualization.visuals import (
+from app.visualization.visualization import (
     create_pie_chart, plot_historical_prices, plot_daily_returns,
     plot_portfolio_returns, plot_portfolio_evolution, plot_sharpe_ratio_scatter,
     plot_efficient_frontier

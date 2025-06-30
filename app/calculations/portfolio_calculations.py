@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
-from data.data_loader import get_historical_prices
-from config.config import TARGET_MARKET_BETA
+from app.data.data_loader import get_historical_prices
+from app.config.config import TARGET_MARKET_BETA
 
 
 def get_portfolio_returns(weights, daily_returns):

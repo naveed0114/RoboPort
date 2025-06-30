@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from config.config import (
+from app.config.config import (
     PLOT_FIGURE_SIZE, PLOT_FONT_SIZE, STANDARD_FIGURE_SIZE
 )
 

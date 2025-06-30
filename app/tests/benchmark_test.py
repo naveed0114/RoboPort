@@ -1,6 +1,7 @@
 import yfinance as yf
 from datetime import datetime, timedelta
-from config.config import BENCHMARK_TICKER, HISTORICAL_PERIOD_DAYS
+from app.config.config import BENCHMARK_TICKER, HISTORICAL_PERIOD_DAYS
+
 tickers = [BENCHMARK_TICKER]
 end_date = datetime.today().date()
 start_date = end_date - timedelta(days=HISTORICAL_PERIOD_DAYS)

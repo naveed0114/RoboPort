@@ -1,6 +1,6 @@
 import pandas as pd
 import yfinance as yf
-from config.config import BENCHMARK_TICKER
+from app.config.config import BENCHMARK_TICKER
 import streamlit as st
 
 

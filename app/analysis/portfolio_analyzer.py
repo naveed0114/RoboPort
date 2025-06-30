@@ -1,5 +1,5 @@
 import pandas as pd
-from calculations.portfolio_calculations import portfolio_value_evoluvation
+from app.calculations.portfolio_calculations import portfolio_value_evoluvation
 
 
 class PortfolioAnalyzer:
